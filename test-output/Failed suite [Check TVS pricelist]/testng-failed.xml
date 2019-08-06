@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Check TVS pricelist]]">
+  <listeners>
+    <listener class-name="com.util.Testngmodlistner"/>
+  </listeners>
+  <test thread-count="5" name="TVSXL verify product price(failed)(failed)">
+    <classes>
+      <class name="com.test.apache.Getprice">
+        <methods>
+          <include name="teardown"/>
+          <include name="browserstart"/>
+          <include name="test" invocation-numbers="14 168 176 178 198 204 234 316 323 331 338 346 353 361 368 376 383 391 398 404 406 407 413 421 428 436 443 451 458 466 473 481 488"/>
+        </methods>
+      </class> <!-- com.test.apache.Getprice -->
+    </classes>
+  </test> <!-- TVSXL verify product price(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Check TVS pricelist]] -->

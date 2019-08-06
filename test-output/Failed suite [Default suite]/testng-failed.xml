@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
+  <test name="Default test(failed)(failed)">
+    <classes>
+      <class name="com.test.apache.Getprice">
+        <methods>
+          <include name="teardown"/>
+          <include name="browserstart"/>
+          <include name="test" invocation-numbers="30 32"/>
+        </methods>
+      </class> <!-- com.test.apache.Getprice -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
